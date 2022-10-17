@@ -1,0 +1,83 @@
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    background-color: #F7F7F7;
+}
+.header {
+    background-color: rgb(10, 134, 236);
+    height: 50px;
+    padding: 16px 0 0 0;
+}
+.h1{
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+}
+.header-emoji {
+    font-size: 48px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header-title {
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin: 0 auto;
+    padding-left: 50px;
+    
+}
+.menu{
+    display: flex;
+    background-color:#F7F7F7;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+.menu-title{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+    height: 120px;
+    float: left;
+    width: 25%;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 3px 3px;
+    padding-top: 25px;
+    padding-left: 15px;
+}
+.wrapper{
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+   
+}
+
+.card{
+   
+    margin-bottom: 10px;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+    float: left;
+    width: 49.3%;
+    margin-left: 5px;
+    margin-right: 5px;
+  
+}
+
+.Select-control {
+    width: 256px;
+    height: 48px;
+}
+
+.Select--single > .Select-control .Select-value, .Select-placeholder {
+    line-height: 48px;
+}
+
+.Select--multi .Select-value-label {
+    line-height: 32px;
+}
+
