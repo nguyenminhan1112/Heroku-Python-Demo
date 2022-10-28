@@ -72,23 +72,23 @@ app.layout=html.Div(
             children=[
                 html.Div(
                     children=[
-                        html.H1(children="DOANH SỐ SALES(SINGLE VALUE)",className="h1"),
+                        html.H1(children="$)",className="h1"),
                         html.H1(children=DSBH,className="h1")
                     ],className="menu-title"
                 ),
                 html.Div(  children=[
-                    html.H1(children="LỢI NHUẬN(SINGLE VALUE)",className="h1"),
+                    html.H1(children="$)",className="h1"),
                     html.H1(children=LN,className="h1")
                 ]
                 , className="menu-title")
                 ,
                 html.Div(  children=[
-                        html.H1(children="TOP DOANH SỐ (SINGLE VALUE)",className="h1"),
+                        html.H1(children="$)",className="h1"),
                         html.H1(children=TOPDS,className="h1")
                     ], className="menu-title")
                 ,
                 html.Div(  children=[
-                        html.H1(children="TOP LỢI NHUẬN(SINGLE VALUE)",className="h1"),
+                        html.H1(children="$)",className="h1"),
                         html.H1(children=TOPLN,className="h1")
                     ], className="menu-title")
             ], 
